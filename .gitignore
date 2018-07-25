@@ -1,0 +1,6 @@
+immutable_collection.egg-info
+build
+dist
+*.pyc
+immutable_collection/__pycache__
+.pytest_cache
