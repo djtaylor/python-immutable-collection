@@ -8,3 +8,11 @@ python:
 
 install: pip install -r requirements.txt
 script: python setup.py test
+
+deploy:
+  provider: pypi
+  user: "djtaylor13"
+  on:
+    branch: master
+  password:
+    secure: "D2/Xvz1z06iqOuYEpGjMRdkZ4ZP0Huik4GmQU1XYGrrNSJ7Fxl9kwk3OYSpffW7DJs5RdhAcNhEAfmUnuGtwabmpwrX9GHY6Rg6YK5oLyS7tjNWeSFewKJ4zp26Cc/m2FpqbTf/gajYCmOgcpaNQFUd6ZoaLEriVkso5y4rUHvWiaVb2Z9fz6brSQCE1qUkadnmkTvnsgc9j+eDZoBBfIlxKDOdNY461sQgryBnUXlI0+pB1sAGltSThY9URUKdu6dPHjRL1B6PvrXw8F/rUyGaAplj8tUYG0PpfQ1yQ9wBQ7ffi5Nnm2rpFPf6nQkjOY2YskLVbRC61Q0jREz9mzeRCsrdel5Llu5nlt4jrwj6KnkdzB6Oq48002itDnIQVmJinnqA/rVtDtsKpK8upVweQDO12No477BlZex9Szg3mXTZpsBrRDz9rlvQboToSMiXrYLxKHnboYOKxmnwY9GO0InKG140RUajFC5zT47TUoZiGhOhNuMWNLaomREsPUpKm9gclA29UjOw7nmZyLYBeVCFm7qHry9p+gMI268ZVxonfeC29bKo8g1odLuwTHbN3UOGpMx69viv64OSd0XkDDR03oUSQTP9G2E6ytj3EkjdUV7zeZTHKaWgeDw732C9KsRuin+tBkr3RJAUZcm+faTz39EPrFfjFcv+FpRI="
