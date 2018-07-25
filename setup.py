@@ -8,7 +8,7 @@ from immutable_collection import __version__
 setup(
     name             = 'immutable_collection',
     version          = __version__,
-    description      = 'Library for interacting with the Rancher 2 v3 API',
+    description      = 'Library for making an immutable collection from a dictionary',
     long_description = open('DESCRIPTION.rst').read(),
     author           = 'David Taylor',
     author_email     = 'djtaylor13@gmail.com',
