@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.org/djtaylor/python-immutable-collection.png)](https://api.travis-ci.org/djtaylor/python-immutable-collection)
+
+
 # Immutable Collection
 This is a very simplistic module for creating an immutable object, based off `namedtuple`, from an existing dictionary. This is used primary for runtime configuration and arguments that should not be changed.
 
